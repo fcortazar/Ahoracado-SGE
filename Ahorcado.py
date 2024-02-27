@@ -2,7 +2,7 @@ import random
 
 # Función para obtener una palabra al azar de una lista de palabras
 def obtener_palabra():
-    palabras = ["python", "programacion", "computadora", "tecnologia", "inteligencia"]
+    palabras = ["python", "programacion", "chatgpt", "tecnologia", "odoo", "javascript", "desarrollo", "web", "aplicaciones", "moviles", "inteligencia", "artificial", "machine", "learning", "deep", "learning", "redes", "neuronales", "big", "data", "analitica", "datos", "ciencia", "datos", "estadistica", "probabilidad", "matematicas", "algoritmos", "computacion", "informatica"]
     return random.choice(palabras)
 
 # Función para mostrar el estado actual de la palabra con las letras adivinadas
